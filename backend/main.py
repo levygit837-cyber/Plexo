@@ -8,6 +8,7 @@ from fastapi.staticfiles import StaticFiles
 from backend.database import create_db_and_tables
 from backend.routers.profiles import router as profiles_router
 from backend.routers.proxy import router as proxy_router
+from backend.services.browser import browser_manager
 
 app = FastAPI(title="Browser Manager")
 
@@ -26,6 +27,11 @@ app.include_router(proxy_router)
 @app.on_event("startup")
 def on_startup():
     create_db_and_tables()
+
+
+@app.on_event("shutdown")
+async def on_shutdown():
+    await browser_manager.shutdown()
 
 
 @app.get("/api/health")
