@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { ProfileList } from "./components/ProfileList";
+import { CreateProfileModal } from "./components/CreateProfileModal";
 import { useProfiles } from "./hooks/useProfiles";
 
 function App() {
@@ -29,6 +30,14 @@ function App() {
           onDelete={remove}
         />
       </main>
+
+      <CreateProfileModal
+        open={showCreate}
+        onClose={() => setShowCreate(false)}
+        onCreate={async (data) => {
+          await create(data);
+        }}
+      />
     </div>
   );
 }
