@@ -1,4 +1,5 @@
 import pytest
+from unittest.mock import patch, AsyncMock
 from fastapi.testclient import TestClient
 from sqlalchemy.pool import StaticPool
 from sqlmodel import Session, SQLModel, create_engine
@@ -97,3 +98,46 @@ def test_delete_profile(client: TestClient):
 
     get_resp = client.get(f"/api/profiles/{profile_id}")
     assert get_resp.status_code == 404
+
+
+def test_start_profile(client: TestClient):
+    create_resp = client.post(
+        "/api/profiles",
+        json={
+            "name": "Browser Profile",
+            "proxy_host": "proxy.example.com",
+            "proxy_port": 8080,
+        },
+    )
+    profile_id = create_resp.json()["id"]
+
+    with patch(
+        "backend.routers.profiles.browser_manager.start_profile",
+        new_callable=AsyncMock,
+    ) as mock_start:
+        response = client.post(f"/api/profiles/{profile_id}/start")
+
+    assert response.status_code == 200
+    assert response.json()["status"] == "running"
+    mock_start.assert_called_once()
+
+
+def test_stop_profile(client: TestClient):
+    create_resp = client.post("/api/profiles", json={"name": "To Stop"})
+    profile_id = create_resp.json()["id"]
+
+    with patch(
+        "backend.routers.profiles.browser_manager.start_profile",
+        new_callable=AsyncMock,
+    ):
+        client.post(f"/api/profiles/{profile_id}/start")
+
+    with patch(
+        "backend.routers.profiles.browser_manager.stop_profile",
+        new_callable=AsyncMock,
+    ) as mock_stop:
+        response = client.post(f"/api/profiles/{profile_id}/stop")
+
+    assert response.status_code == 200
+    assert response.json()["status"] == "stopped"
+    mock_stop.assert_called_once()
