@@ -1,0 +1,802 @@
+[
+  {
+    "id": "rp-1774804766838-rqpysv",
+    "timestamp": 1774804766838,
+    "files": [
+      "frontend/src/routes/index.tsx"
+    ],
+    "message": "Pre-commit: frontend/src/routes/index.tsx"
+  },
+  {
+    "id": "rp-1774804785891-d28aug",
+    "timestamp": 1774804785892,
+    "files": [
+      "frontend/src/App.tsx"
+    ],
+    "message": "Pre-commit: frontend/src/App.tsx"
+  },
+  {
+    "id": "rp-1774804867010-3fk6e4",
+    "timestamp": 1774804867010,
+    "files": [
+      "frontend/vitest.config.ts"
+    ],
+    "message": "Pre-commit: frontend/vitest.config.ts"
+  },
+  {
+    "id": "rp-1774804888272-19eopp",
+    "timestamp": 1774804888272,
+    "files": [
+      "frontend/tests/setup.ts"
+    ],
+    "message": "Pre-commit: frontend/tests/setup.ts"
+  },
+  {
+    "id": "rp-1774804888392-5zoa3p",
+    "timestamp": 1774804888392,
+    "files": [
+      "frontend/tests/mocks/server.ts"
+    ],
+    "message": "Pre-commit: frontend/tests/mocks/server.ts"
+  },
+  {
+    "id": "rp-1774804888484-mdl3hu",
+    "timestamp": 1774804888484,
+    "files": [
+      "frontend/tests/mocks/handlers.ts"
+    ],
+    "message": "Pre-commit: frontend/tests/mocks/handlers.ts"
+  },
+  {
+    "id": "rp-1774804922097-lwuix1",
+    "timestamp": 1774804922098,
+    "files": [
+      "frontend/tests/unit/components/Button.test.tsx"
+    ],
+    "message": "Pre-commit: frontend/tests/unit/components/Button.test.tsx"
+  },
+  {
+    "id": "rp-1774804922202-vb42pc",
+    "timestamp": 1774804922203,
+    "files": [
+      "frontend/tests/unit/hooks/useAgents.test.ts"
+    ],
+    "message": "Pre-commit: frontend/tests/unit/hooks/useAgents.test.ts"
+  },
+  {
+    "id": "rp-1774804922310-cxfm5t",
+    "timestamp": 1774804922310,
+    "files": [
+      "frontend/tests/integration/pages/Home.test.tsx"
+    ],
+    "message": "Pre-commit: frontend/tests/integration/pages/Home.test.tsx"
+  },
+  {
+    "id": "rp-1774804941408-4su0yt",
+    "timestamp": 1774804941408,
+    "files": [
+      "frontend/tests/e2e/workflows/navigation.spec.ts"
+    ],
+    "message": "Pre-commit: frontend/tests/e2e/workflows/navigation.spec.ts"
+  },
+  {
+    "id": "rp-1774804972363-rwmr8y",
+    "timestamp": 1774804972363,
+    "files": [
+      "frontend/playwright.config.ts"
+    ],
+    "message": "Pre-commit: frontend/playwright.config.ts"
+  },
+  {
+    "id": "rp-1774804972460-kl0lgg",
+    "timestamp": 1774804972461,
+    "files": [
+      "frontend/tests/README.md"
+    ],
+    "message": "Pre-commit: frontend/tests/README.md"
+  },
+  {
+    "id": "rp-1774805225000-27e83r",
+    "timestamp": 1774805225001,
+    "files": [
+      "docker-compose.yml"
+    ],
+    "message": "Pre-commit: docker-compose.yml"
+  },
+  {
+    "id": "rp-1774805225158-ya108m",
+    "timestamp": 1774805225158,
+    "files": [
+      ".gitignore"
+    ],
+    "message": "Pre-commit: .gitignore"
+  },
+  {
+    "id": "rp-1774805272640-v6blk1",
+    "timestamp": 1774805272640,
+    "files": [
+      "README.md"
+    ],
+    "message": "Pre-commit: README.md"
+  },
+  {
+    "id": "rp-1774805294904-zqr6nd",
+    "timestamp": 1774805294904,
+    "files": [
+      "frontend/Dockerfile"
+    ],
+    "message": "Pre-commit: frontend/Dockerfile"
+  },
+  {
+    "id": "rp-1774805446845-5a9e93",
+    "timestamp": 1774805446845,
+    "files": [
+      "docs/README.md"
+    ],
+    "message": "Pre-commit: docs/README.md"
+  },
+  {
+    "id": "rp-1774805447015-uf0b49",
+    "timestamp": 1774805447015,
+    "files": [
+      "docs/adr/README.md"
+    ],
+    "message": "Pre-commit: docs/adr/README.md"
+  },
+  {
+    "id": "rp-1774805547909-ao14hp",
+    "timestamp": 1774805547910,
+    "files": [
+      "docs/adr/0001-use-fastapi.md"
+    ],
+    "message": "Pre-commit: docs/adr/0001-use-fastapi.md"
+  },
+  {
+    "id": "rp-1774805548094-1bk61h",
+    "timestamp": 1774805548094,
+    "files": [
+      "docs/adr/0002-use-spade-xmpp.md"
+    ],
+    "message": "Pre-commit: docs/adr/0002-use-spade-xmpp.md"
+  },
+  {
+    "id": "rp-1774805548360-mp2ppx",
+    "timestamp": 1774805548360,
+    "files": [
+      "docs/features/agents.md"
+    ],
+    "message": "Pre-commit: docs/features/agents.md"
+  },
+  {
+    "id": "rp-1774805548664-4mp96g",
+    "timestamp": 1774805548665,
+    "files": [
+      "docs/features/tasks.md"
+    ],
+    "message": "Pre-commit: docs/features/tasks.md"
+  },
+  {
+    "id": "rp-1774805572316-osjahf",
+    "timestamp": 1774805572316,
+    "files": [
+      "docs/architecture/overview.md"
+    ],
+    "message": "Pre-commit: docs/architecture/overview.md"
+  },
+  {
+    "id": "rp-1774808749609-894nmn",
+    "timestamp": 1774808749610,
+    "files": [
+      "docs/adr/0006-agent-collaboration-pattern.md"
+    ],
+    "message": "Pre-commit: docs/adr/0006-agent-collaboration-pattern.md"
+  },
+  {
+    "id": "rp-1774808817467-gu3wwy",
+    "timestamp": 1774808817468,
+    "files": [
+      "docs/adr/0007-agent-tools-capabilities.md"
+    ],
+    "message": "Pre-commit: docs/adr/0007-agent-tools-capabilities.md"
+  },
+  {
+    "id": "rp-1774808873641-szfhwx",
+    "timestamp": 1774808873642,
+    "files": [
+      "docs/adr/0008-agent-specialization-strategy.md"
+    ],
+    "message": "Pre-commit: docs/adr/0008-agent-specialization-strategy.md"
+  },
+  {
+    "id": "rp-1774808932924-xvyaao",
+    "timestamp": 1774808932924,
+    "files": [
+      "docs/adr/0009-real-time-communication-protocol.md"
+    ],
+    "message": "Pre-commit: docs/adr/0009-real-time-communication-protocol.md"
+  },
+  {
+    "id": "rp-1774809012039-7f9bv9",
+    "timestamp": 1774809012039,
+    "files": [
+      "docs/adr/0010-agent-memory-context.md"
+    ],
+    "message": "Pre-commit: docs/adr/0010-agent-memory-context.md"
+  },
+  {
+    "id": "rp-1774809085326-dbi10q",
+    "timestamp": 1774809085327,
+    "files": [
+      "docs/adr/0011-error-handling-recovery.md"
+    ],
+    "message": "Pre-commit: docs/adr/0011-error-handling-recovery.md"
+  },
+  {
+    "id": "rp-1774809152655-aohf1c",
+    "timestamp": 1774809152656,
+    "files": [
+      "docs/adr/0012-agent-lifecycle-management.md"
+    ],
+    "message": "Pre-commit: docs/adr/0012-agent-lifecycle-management.md"
+  },
+  {
+    "id": "rp-1774809172510-e58j1z",
+    "timestamp": 1774809172512,
+    "files": [
+      "docs/adr/README.md"
+    ],
+    "message": "Pre-commit: docs/adr/README.md"
+  },
+  {
+    "id": "rp-1774810043909-68ghvp",
+    "timestamp": 1774810043910,
+    "files": [
+      "docs/adr/0013-spade-langgraph-orchestration.md"
+    ],
+    "message": "Pre-commit: docs/adr/0013-spade-langgraph-orchestration.md"
+  },
+  {
+    "id": "rp-1774810111434-27p48n",
+    "timestamp": 1774810111436,
+    "files": [
+      "docs/adr/README.md"
+    ],
+    "message": "Pre-commit: docs/adr/README.md"
+  },
+  {
+    "id": "rp-1774810262573-xradlv",
+    "timestamp": 1774810262574,
+    "files": [
+      "docs/adr/0013-spade-langgraph-orchestration.md"
+    ],
+    "message": "Pre-commit: docs/adr/0013-spade-langgraph-orchestration.md"
+  },
+  {
+    "id": "rp-1774810393506-qdsxfb",
+    "timestamp": 1774810393507,
+    "files": [
+      "docs/adr/IMPLEMENTATION_ORDER.md"
+    ],
+    "message": "Pre-commit: docs/adr/IMPLEMENTATION_ORDER.md"
+  },
+  {
+    "id": "rp-1774816326993-tzmsxb",
+    "timestamp": 1774816326993,
+    "files": [
+      "backend/app/spade/protocols/urgency_protocol.py"
+    ],
+    "message": "Pre-commit: backend/app/spade/protocols/urgency_protocol.py"
+  },
+  {
+    "id": "rp-1774816381454-b1mgjz",
+    "timestamp": 1774816381454,
+    "files": [
+      "backend/app/spade/behaviors/checkpoint_behavior.py"
+    ],
+    "message": "Pre-commit: backend/app/spade/behaviors/checkpoint_behavior.py"
+  },
+  {
+    "id": "rp-1774816401352-hoexg1",
+    "timestamp": 1774816401353,
+    "files": [
+      "backend/app/spade/teams/__init__.py"
+    ],
+    "message": "Pre-commit: backend/app/spade/teams/__init__.py"
+  },
+  {
+    "id": "rp-1774816428327-v578vl",
+    "timestamp": 1774816428328,
+    "files": [
+      "backend/app/spade/teams/team.py"
+    ],
+    "message": "Pre-commit: backend/app/spade/teams/team.py"
+  },
+  {
+    "id": "rp-1774816459740-4h7fsf",
+    "timestamp": 1774816459742,
+    "files": [
+      "backend/app/spade/teams/team_chat.py"
+    ],
+    "message": "Pre-commit: backend/app/spade/teams/team_chat.py"
+  },
+  {
+    "id": "rp-1774816482839-jcebsx",
+    "timestamp": 1774816482840,
+    "files": [
+      "backend/app/spade/teams/team_manager.py"
+    ],
+    "message": "Pre-commit: backend/app/spade/teams/team_manager.py"
+  },
+  {
+    "id": "rp-1774816505697-6q8pfp",
+    "timestamp": 1774816505698,
+    "files": [
+      "backend/app/spade/whiteboard/__init__.py"
+    ],
+    "message": "Pre-commit: backend/app/spade/whiteboard/__init__.py"
+  },
+  {
+    "id": "rp-1774816539290-kva105",
+    "timestamp": 1774816539290,
+    "files": [
+      "backend/app/spade/whiteboard/whiteboard_entry.py"
+    ],
+    "message": "Pre-commit: backend/app/spade/whiteboard/whiteboard_entry.py"
+  },
+  {
+    "id": "rp-1774816563419-nmpebd",
+    "timestamp": 1774816563419,
+    "files": [
+      "backend/app/spade/whiteboard/whiteboard.py"
+    ],
+    "message": "Pre-commit: backend/app/spade/whiteboard/whiteboard.py"
+  },
+  {
+    "id": "rp-1774816595990-jnr7w2",
+    "timestamp": 1774816595991,
+    "files": [
+      "backend/app/spade/whiteboard/whiteboard_manager.py"
+    ],
+    "message": "Pre-commit: backend/app/spade/whiteboard/whiteboard_manager.py"
+  },
+  {
+    "id": "rp-1774816613742-f21y6x",
+    "timestamp": 1774816613743,
+    "files": [
+      "backend/app/spade/agents/__init__.py"
+    ],
+    "message": "Pre-commit: backend/app/spade/agents/__init__.py"
+  },
+  {
+    "id": "rp-1774816644860-evc5fb",
+    "timestamp": 1774816644862,
+    "files": [
+      "backend/app/spade/agents/monitor_agent.py"
+    ],
+    "message": "Pre-commit: backend/app/spade/agents/monitor_agent.py"
+  },
+  {
+    "id": "rp-1774816672811-kne0cg",
+    "timestamp": 1774816672812,
+    "files": [
+      "backend/app/spade/agents/specialist_agent.py"
+    ],
+    "message": "Pre-commit: backend/app/spade/agents/specialist_agent.py"
+  },
+  {
+    "id": "rp-1774816702210-r2vluq",
+    "timestamp": 1774816702210,
+    "files": [
+      "backend/app/spade/agents/executor_agent.py"
+    ],
+    "message": "Pre-commit: backend/app/spade/agents/executor_agent.py"
+  },
+  {
+    "id": "rp-1774816756290-fizkxp",
+    "timestamp": 1774816756291,
+    "files": [
+      "backend/app/spade/__init__.py"
+    ],
+    "message": "Pre-commit: backend/app/spade/__init__.py"
+  },
+  {
+    "id": "rp-1774816774780-8w1e4g",
+    "timestamp": 1774816774781,
+    "files": [
+      "backend/app/spade/graphs/__init__.py"
+    ],
+    "message": "Pre-commit: backend/app/spade/graphs/__init__.py"
+  },
+  {
+    "id": "rp-1774816795961-6wqwoc",
+    "timestamp": 1774816795962,
+    "files": [
+      "backend/app/spade/graphs/graph_node.py"
+    ],
+    "message": "Pre-commit: backend/app/spade/graphs/graph_node.py"
+  },
+  {
+    "id": "rp-1774816844536-d5w3d6",
+    "timestamp": 1774816844537,
+    "files": [
+      "backend/app/spade/graphs/agent_graph.py"
+    ],
+    "message": "Pre-commit: backend/app/spade/graphs/agent_graph.py"
+  },
+  {
+    "id": "rp-1774816868775-fimqyx",
+    "timestamp": 1774816868776,
+    "files": [
+      "backend/app/spade/graphs/graph_executor.py"
+    ],
+    "message": "Pre-commit: backend/app/spade/graphs/graph_executor.py"
+  },
+  {
+    "id": "rp-1774816922335-7djwz0",
+    "timestamp": 1774816922336,
+    "files": [
+      "backend/app/spade/behaviors/__init__.py"
+    ],
+    "message": "Pre-commit: backend/app/spade/behaviors/__init__.py"
+  },
+  {
+    "id": "rp-1774816946419-ts7es4",
+    "timestamp": 1774816946420,
+    "files": [
+      "backend/app/spade/protocols/__init__.py"
+    ],
+    "message": "Pre-commit: backend/app/spade/protocols/__init__.py"
+  },
+  {
+    "id": "rp-1774817002402-zre0u1",
+    "timestamp": 1774817002403,
+    "files": [
+      "backend/app/spade/registry/__init__.py"
+    ],
+    "message": "Pre-commit: backend/app/spade/registry/__init__.py"
+  },
+  {
+    "id": "rp-1774817071828-b8b3ny",
+    "timestamp": 1774817071829,
+    "files": [
+      "docs/adr/0015-spade-protocol-implementation.md"
+    ],
+    "message": "Pre-commit: docs/adr/0015-spade-protocol-implementation.md"
+  },
+  {
+    "id": "rp-1774817088383-of62q7",
+    "timestamp": 1774817088384,
+    "files": [
+      "docs/adr/README.md"
+    ],
+    "message": "Pre-commit: docs/adr/README.md"
+  },
+  {
+    "id": "rp-1774817133515-tdvchi",
+    "timestamp": 1774817133515,
+    "files": [
+      "docs/SPADE_IMPLEMENTATION_SUMMARY.md"
+    ],
+    "message": "Pre-commit: docs/SPADE_IMPLEMENTATION_SUMMARY.md"
+  },
+  {
+    "id": "rp-1774817596274-3ducdk",
+    "timestamp": 1774817596275,
+    "files": [
+      "backend/docker/ejabberd/ejabberd.yml"
+    ],
+    "message": "Pre-commit: backend/docker/ejabberd/ejabberd.yml"
+  },
+  {
+    "id": "rp-1774817657805-u5zh8m",
+    "timestamp": 1774817657806,
+    "files": [
+      "backend/app/spade/connection/xmpp_connection.py"
+    ],
+    "message": "Pre-commit: backend/app/spade/connection/xmpp_connection.py"
+  },
+  {
+    "id": "rp-1774817693388-4xbrzm",
+    "timestamp": 1774817693388,
+    "files": [
+      "backend/app/spade/protocols/p2p_protocol.py"
+    ],
+    "message": "Pre-commit: backend/app/spade/protocols/p2p_protocol.py"
+  },
+  {
+    "id": "rp-1774817743595-xyuvw0",
+    "timestamp": 1774817743595,
+    "files": [
+      "backend/scripts/test_p2p_communication.py"
+    ],
+    "message": "Pre-commit: backend/scripts/test_p2p_communication.py"
+  },
+  {
+    "id": "rp-1774817778115-osc6fl",
+    "timestamp": 1774817778117,
+    "files": [
+      "backend/tests/unit/test_spade_p2p.py"
+    ],
+    "message": "Pre-commit: backend/tests/unit/test_spade_p2p.py"
+  },
+  {
+    "id": "rp-1774817800487-yeuzti",
+    "timestamp": 1774817800488,
+    "files": [
+      "backend/app/spade/connection/__init__.py"
+    ],
+    "message": "Pre-commit: backend/app/spade/connection/__init__.py"
+  },
+  {
+    "id": "rp-1774817814585-qx2wq9",
+    "timestamp": 1774817814586,
+    "files": [
+      "backend/app/spade/protocols/__init__.py"
+    ],
+    "message": "Pre-commit: backend/app/spade/protocols/__init__.py"
+  },
+  {
+    "id": "rp-1774817834828-o74oqi",
+    "timestamp": 1774817834829,
+    "files": [
+      "docs/adr/0016-xmpp-server-selection.md"
+    ],
+    "message": "Pre-commit: docs/adr/0016-xmpp-server-selection.md"
+  },
+  {
+    "id": "rp-1774817859343-mge75v",
+    "timestamp": 1774817859344,
+    "files": [
+      "docker-compose.yml"
+    ],
+    "message": "Pre-commit: docker-compose.yml"
+  },
+  {
+    "id": "rp-1774817885348-muxyu0",
+    "timestamp": 1774817885349,
+    "files": [
+      "docs/adr/README.md"
+    ],
+    "message": "Pre-commit: docs/adr/README.md"
+  },
+  {
+    "id": "rp-1774818185761-8cynxi",
+    "timestamp": 1774818185765,
+    "files": [
+      "backend/app/schemas/p2p.py"
+    ],
+    "message": "Pre-commit: backend/app/schemas/p2p.py"
+  },
+  {
+    "id": "rp-1774818206171-wsj83w",
+    "timestamp": 1774818206172,
+    "files": [
+      "backend/app/schemas/xmpp_connection.py"
+    ],
+    "message": "Pre-commit: backend/app/schemas/xmpp_connection.py"
+  },
+  {
+    "id": "rp-1774818222629-7faraq",
+    "timestamp": 1774818222635,
+    "files": [
+      "backend/app/services/xmpp_service.py"
+    ],
+    "message": "Pre-commit: backend/app/services/xmpp_service.py"
+  },
+  {
+    "id": "rp-1774818245041-iqm3dd",
+    "timestamp": 1774818245042,
+    "files": [
+      "backend/app/services/p2p_service.py"
+    ],
+    "message": "Pre-commit: backend/app/services/p2p_service.py"
+  },
+  {
+    "id": "rp-1774818300435-evpcf7",
+    "timestamp": 1774818300436,
+    "files": [
+      "backend/app/api/v1/endpoints/p2p.py"
+    ],
+    "message": "Pre-commit: backend/app/api/v1/endpoints/p2p.py"
+  },
+  {
+    "id": "rp-1774818334873-9zih8t",
+    "timestamp": 1774818334874,
+    "files": [
+      "backend/app/api/deps.py"
+    ],
+    "message": "Pre-commit: backend/app/api/deps.py"
+  },
+  {
+    "id": "rp-1774818360576-9elw8k",
+    "timestamp": 1774818360577,
+    "files": [
+      "backend/app/api/v1/router.py"
+    ],
+    "message": "Pre-commit: backend/app/api/v1/router.py"
+  },
+  {
+    "id": "rp-1774819413201-k0d2ny",
+    "timestamp": 1774819413202,
+    "files": [
+      "frontend/src/routes/index.tsx"
+    ],
+    "message": "Pre-commit: frontend/src/routes/index.tsx"
+  },
+  {
+    "id": "rp-1774819436441-se811r",
+    "timestamp": 1774819436443,
+    "files": [
+      "frontend/src/constants/routes.ts"
+    ],
+    "message": "Pre-commit: frontend/src/constants/routes.ts"
+  },
+  {
+    "id": "rp-1774819482295-i5to2g",
+    "timestamp": 1774819482299,
+    "files": [
+      "frontend/src/components/layout/Sidebar/index.tsx"
+    ],
+    "message": "Pre-commit: frontend/src/components/layout/Sidebar/index.tsx"
+  },
+  {
+    "id": "rp-1774819513821-05rkvw",
+    "timestamp": 1774819513823,
+    "files": [
+      "frontend/tailwind.config.js"
+    ],
+    "message": "Pre-commit: frontend/tailwind.config.js"
+  },
+  {
+    "id": "rp-1774819542220-5uxrnz",
+    "timestamp": 1774819542221,
+    "files": [
+      "frontend/src/components/features/chat/ChatLayout.tsx"
+    ],
+    "message": "Pre-commit: frontend/src/components/features/chat/ChatLayout.tsx"
+  },
+  {
+    "id": "rp-1774819567855-ki2reu",
+    "timestamp": 1774819567856,
+    "files": [
+      "frontend/src/components/features/chat/ChatHeader.tsx"
+    ],
+    "message": "Pre-commit: frontend/src/components/features/chat/ChatHeader.tsx"
+  },
+  {
+    "id": "rp-1774819589882-ldp8bh",
+    "timestamp": 1774819589884,
+    "files": [
+      "frontend/src/components/features/chat/ChatSidebar.tsx"
+    ],
+    "message": "Pre-commit: frontend/src/components/features/chat/ChatSidebar.tsx"
+  },
+  {
+    "id": "rp-1774819608190-pbxn5d",
+    "timestamp": 1774819608192,
+    "files": [
+      "frontend/src/components/features/chat/ChatMessages.tsx"
+    ],
+    "message": "Pre-commit: frontend/src/components/features/chat/ChatMessages.tsx"
+  },
+  {
+    "id": "rp-1774819622573-b2wqrv",
+    "timestamp": 1774819622574,
+    "files": [
+      "frontend/src/components/features/chat/ChatSamples.tsx"
+    ],
+    "message": "Pre-commit: frontend/src/components/features/chat/ChatSamples.tsx"
+  },
+  {
+    "id": "rp-1774819639168-5ev07f",
+    "timestamp": 1774819639169,
+    "files": [
+      "frontend/src/components/features/chat/ChatInputBar.tsx"
+    ],
+    "message": "Pre-commit: frontend/src/components/features/chat/ChatInputBar.tsx"
+  },
+  {
+    "id": "rp-1774819649368-i6l40d",
+    "timestamp": 1774819649369,
+    "files": [
+      "frontend/src/components/features/chat/index.ts"
+    ],
+    "message": "Pre-commit: frontend/src/components/features/chat/index.ts"
+  },
+  {
+    "id": "rp-1774819692192-4u153a",
+    "timestamp": 1774819692193,
+    "files": [
+      "frontend/src/contexts/AgentContext.tsx"
+    ],
+    "message": "Pre-commit: frontend/src/contexts/AgentContext.tsx"
+  },
+  {
+    "id": "rp-1774821226621-2r6uom",
+    "timestamp": 1774821226622,
+    "files": [
+      "frontend/src/components/features/chat/ChatMessages.tsx"
+    ],
+    "message": "Pre-commit: frontend/src/components/features/chat/ChatMessages.tsx"
+  },
+  {
+    "id": "rp-1774821236440-d1iwq2",
+    "timestamp": 1774821236442,
+    "files": [
+      "frontend/src/components/features/messages/MessageItem.tsx"
+    ],
+    "message": "Pre-commit: frontend/src/components/features/messages/MessageItem.tsx"
+  },
+  {
+    "id": "rp-1774821278115-a1o8h2",
+    "timestamp": 1774821278116,
+    "files": [
+      "frontend/src/contexts/AgentContext.tsx"
+    ],
+    "message": "Pre-commit: frontend/src/contexts/AgentContext.tsx"
+  },
+  {
+    "id": "rp-1774821311525-to5kb4",
+    "timestamp": 1774821311526,
+    "files": [
+      "frontend/src/contexts/AgentContext.tsx"
+    ],
+    "message": "Pre-commit: frontend/src/contexts/AgentContext.tsx"
+  },
+  {
+    "id": "rp-1774821328258-rdbqqw",
+    "timestamp": 1774821328259,
+    "files": [
+      "frontend/src/components/features/chat/ChatLayout.tsx"
+    ],
+    "message": "Pre-commit: frontend/src/components/features/chat/ChatLayout.tsx"
+  },
+  {
+    "id": "rp-1774821340424-6vpmpo",
+    "timestamp": 1774821340426,
+    "files": [
+      "frontend/src/components/features/messages/MessageItem.tsx"
+    ],
+    "message": "Pre-commit: frontend/src/components/features/messages/MessageItem.tsx"
+  },
+  {
+    "id": "rp-1774821451842-pts6qt",
+    "timestamp": 1774821451845,
+    "files": [
+      "frontend/src/routes/index.tsx"
+    ],
+    "message": "Pre-commit: frontend/src/routes/index.tsx"
+  },
+  {
+    "id": "rp-1774821623756-ow60u1",
+    "timestamp": 1774821623758,
+    "files": [
+      "frontend/src/App.tsx"
+    ],
+    "message": "Pre-commit: frontend/src/App.tsx"
+  },
+  {
+    "id": "rp-1774821756690-dfc4rl",
+    "timestamp": 1774821756691,
+    "files": [
+      "frontend/vite.config.ts"
+    ],
+    "message": "Pre-commit: frontend/vite.config.ts"
+  },
+  {
+    "id": "rp-1774822068401-g811ll",
+    "timestamp": 1774822068402,
+    "files": [
+      "frontend/src/components/features/chat/ChatLayout.tsx"
+    ],
+    "message": "Pre-commit: frontend/src/components/features/chat/ChatLayout.tsx"
+  },
+  {
+    "id": "rp-1774822164393-8w37aq",
+    "timestamp": 1774822164394,
+    "files": [
+      "frontend/src/contexts/AgentContext.tsx"
+    ],
+    "message": "Pre-commit: frontend/src/contexts/AgentContext.tsx"
+  }
+]
