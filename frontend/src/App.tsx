@@ -1,45 +1,29 @@
-import { useState } from "react";
-import { ProfileList } from "./components/ProfileList";
-import { CreateProfileModal } from "./components/CreateProfileModal";
-import { useProfiles } from "./hooks/useProfiles";
+// Main App component with context providers and routing
+// FEATURE: Application Root
 
-function App() {
-  const { profiles, loading, create, remove, start, stop } = useProfiles();
-  const [showCreate, setShowCreate] = useState(false);
+import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
+import { AuthProvider } from './contexts/AuthContext';
+import { ThemeProvider } from './contexts/ThemeContext';
+import { NotificationProvider } from './contexts/NotificationContext';
+import { AgentProvider } from './contexts/AgentContext';
+import AppRoutes from './routes';
+import './assets/styles/global.css';
 
+const App: React.FC = () => {
   return (
-    <div className="min-h-screen bg-zinc-950 text-white">
-      <header className="border-b border-zinc-800 px-6 py-4">
-        <div className="max-w-6xl mx-auto flex items-center justify-between">
-          <h1 className="text-xl font-bold">Browser Manager</h1>
-          <button
-            onClick={() => setShowCreate(true)}
-            className="px-4 py-2 bg-blue-600 text-white rounded-lg text-sm font-medium hover:bg-blue-500 transition-colors cursor-pointer"
-          >
-            + Criar Perfil
-          </button>
-        </div>
-      </header>
-
-      <main className="max-w-6xl mx-auto px-6 py-8">
-        <ProfileList
-          profiles={profiles}
-          loading={loading}
-          onStart={start}
-          onStop={stop}
-          onDelete={remove}
-        />
-      </main>
-
-      <CreateProfileModal
-        open={showCreate}
-        onClose={() => setShowCreate(false)}
-        onCreate={async (data) => {
-          await create(data);
-        }}
-      />
-    </div>
+    <BrowserRouter>
+      <ThemeProvider>
+        <AuthProvider>
+          <NotificationProvider>
+            <AgentProvider>
+              <AppRoutes />
+            </AgentProvider>
+          </NotificationProvider>
+        </AuthProvider>
+      </ThemeProvider>
+    </BrowserRouter>
   );
-}
+};
 
 export default App;
