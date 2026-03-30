@@ -115,3 +115,4 @@ prometheus_data/
 
 # Grafana
 grafana_data/
+.mcp_data/
