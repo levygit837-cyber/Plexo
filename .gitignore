@@ -162,3 +162,8 @@ vendor/
 .gitkeep
 # Build / Dist
 *.tsbuildinfo
+
+# Documentacoes tecnicas internas - nao commitar em repo publico
+docker-compose.yml
+backend/docker/
+frontend/Dockerfile
